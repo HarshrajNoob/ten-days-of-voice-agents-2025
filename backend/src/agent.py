@@ -5,12 +5,6 @@ import asyncio
 from typing import Annotated, Literal, Optional
 from dataclasses import dataclass
 
-print("\n" + "🧬" * 50)
-print("🚀 BIOLOGY TUTOR - DAY 4 TUTORIAL")
-print("📚 SUBSCRIBE: https://www.youtube.com/@drabhishek.5460/videos")
-print("💡 agent.py LOADED SUCCESSFULLY!")
-print("🧬" * 50 + "\n")
-
 from dotenv import load_dotenv
 from pydantic import Field
 from livekit.agents import (
